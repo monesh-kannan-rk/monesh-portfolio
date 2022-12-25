@@ -5,7 +5,7 @@ import DevAnimation from '../assets/lotties/dev.json'
 export default function Card() {
   return (
     <div>
-        <div>
+        <div className='dev-card'>
         <Player
           src={DevAnimation}
           className = "lottie_dev"
